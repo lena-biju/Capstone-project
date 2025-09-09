@@ -47,6 +47,7 @@ public class ProductPage extends BasePage {
 		return isDisplayed;
 	}
 	
+	
 	public void addAllToCart() throws InterruptedException{
 		List<WebElement> addToCartBtns = driver.findElements(addToCartBtn);
 		for(WebElement addtocart:addToCartBtns) {
